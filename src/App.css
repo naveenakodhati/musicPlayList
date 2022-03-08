@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+}
+.about-singer {
+  min-height: 40vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+  color: white;
+}
+.about-signer-det1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.playlist-container {
+  background-color: #152850;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.wrap-container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  font-size: 22px;
+  font-weight: 600;
+  align-self: center;
+}
+.input-container {
+  border-radius: 6px;
+  display: flex;
+  border: 1px white solid;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  width: 25%;
+  justify-content: space-between;
+  color: white;
+}
+.input-element {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  width: 90%;
+  color: white;
+  font-size: 17px;
+}
+
+.icon {
+  font-size: 25px;
+  align-self: center;
+}
+.ul-container {
+  padding-left: 0px;
+}
+.no-songs-container {
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-songs-title {
+  font-size: 22px;
+  font-weight: 600;
+}
